@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Phypiseth Samrithsak, a passionate web developer specializing in Vue.js, animations, and responsive design.">
+    <meta name="keywords" content="portfolio, web developer, Vue.js, Anime.js, responsive design">
+    <meta name="author" content="Phypiseth Samrithsak">
+    <meta property="og:title" content="My Portfolio - Phypiseth Samrithsak">
+    <meta property="og:description" content="Check out my work as a web developer and designer.">
+    <meta property="og:image" content="http://192.168.3.189:8086/path/to/profile-image.jpg">
+    <title>Phypiseth Samrithsak - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/GudaNya.gif">
+    <!-- Add Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Optional: Add custom CSS for initial styling -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+        }
+        body:not(.loaded) #app {
+            display: none;
+        }
+        body.loaded #app {
+            display: block;
+        }
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #007bff;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <script>
+        window.onload = function() {
+            document.body.classList.add('loaded');
+        };
+    </script>
+</body>
 </html>

@@ -12,6 +12,7 @@
     "animejs": "^3.2.2",
     "axios": "^1.7.9",
     "core-js": "^3.8.3",
+    "express": "^4.21.2",
     "vue": "^3.2.13",
     "vue-router": "^4.5.0"
   },
@@ -43,5 +44,10 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

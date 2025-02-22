@@ -18,6 +18,12 @@
     <ServicesSection />
     <SkillsSection />
     <ContactSection />
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; {{ new Date().getFullYear() }} Skibidi-Toilet-Org. All rights reserved. | Trademarks and logos are the property of their respective owners.</p>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -186,7 +192,7 @@ section:hover {
   width: 20px;
   height: 20px;
   background: white;
-  border-radius: 50%;
+  border-radius:  50%;
   position: absolute;
   top: 2.5px;
   left: 2.5px;
@@ -218,6 +224,28 @@ section:hover {
 
 .dark-mode .switch::after {
   background: #fff;
+}
+
+.footer {
+  background-color: #f8f9fa; 
+  padding: 10px 0; 
+  text-align: center; 
+  border-radius: 15px;
+}
+
+.footer .container {
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.dark-mode .footer {
+  background-color: #1a1a1a; 
+  color: #fff;
+  border-radius: 15px;
+}
+
+.dark-mode .footer .container {
+  color: #fff;
 }
 
 @media (max-width: 768px) {

@@ -25,12 +25,21 @@ npm run lint
 cd [Project Folder/Path]
 ```
 
+### Initialize the Node.js 
+```
+npm init -y
+```
+
 ### Modules used for this Website 
 ```
 npm install vue
 ```
 ```
 npm install animejs
+```
+### If you want the latest version of Vue
+```
+npm install vue@latest
 ```
 
 

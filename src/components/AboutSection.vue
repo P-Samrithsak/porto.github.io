@@ -4,7 +4,7 @@
     <div class="content">
       <img src="../assets/Miku.gif" alt="Profile GIF" class="profile-gif" />
       <div class="profiles">
-        <p class="bio">Hi, I'm Phypiseth Samrithsak! Just a student Bing Chillin' around and just enjoy youth...oh wait we're long past that......nvm</p>
+        <p class="bio">Hi, I'm Phypiseth Samrithsak! Just a student Bing Chillin' around and just Gaming.</p>
         <div class="social-links">
           <a href="https://x.com/Samrithsak69" class="social-link">
             <i class="fab fa-x-twitter"></i>
